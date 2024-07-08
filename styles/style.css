@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background-color: #1E172F;
+    color: gray;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 180px;
+}
+
+.sec-one{
+    color: white;
+}
+
+.btn-Download{
+    background-color: white;
+    color: #F41486;
+}
+
+.btn-Features{
+    background-color: #2E2550;
+    border: 2px solid white;
+    border-radius: 3px;
+}
+
+.sec-one-div-one{
+    background-color: #2E2550;
+}
+
+.sec-two{
+    background-color: #F1F2F7;
+}
+
+.sec-two-title{
+    color: #F41486;
+}
