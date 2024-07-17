@@ -98,7 +98,7 @@ header{
 }
 
 .phone{
-    padding: 140px 150px;
+    padding: 140px 138px;
     width: 200px;   
     height: 400px;
 }
@@ -165,6 +165,7 @@ header{
     position: relative;
     top: 30px;
     left: 38%;
+    width: 400px;
 }
 
 .content{
@@ -298,8 +299,6 @@ header{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-
-
 footer{
     background-color: #FFFFFF;
     display: flex;
@@ -318,3 +317,177 @@ footer{
 #imgfoot{
    display: flex;   
 }
+
+@media screen and (max-width: 1279px){
+
+    header {
+        height: 67px;
+    }
+
+    .tarjet-img {
+        padding: 12vh;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .tarjets {
+        gap: 58px;
+    }
+}
+
+@media screen and (max-width:920px) {
+    .title {
+        left: 65px;
+        width: 400px;
+    }
+
+    .phone {
+        padding: 140px 129px;
+    }
+    .buttons {
+        left: 65px;
+    }
+
+    .laptop {
+        left: 94px;
+    }
+
+    .sec-two-div-two {
+        left: 580px;
+    }
+
+    .sec-three h2 {
+        left: 34%;
+    }
+
+    .content {
+        left: 26%;
+    }
+
+    .sec-three {
+        height: 960px;
+    }
+
+    .tarjet-img {
+        padding: 18vh;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .title {
+        left: 40px;
+        width: 320px;
+    }
+
+    .buttons {
+        left: 40px;
+    }
+
+    .phone {
+        padding: 140px 89px;
+    }
+
+    .laptop {
+        left: 3px;
+    }
+
+    .sec-two-div-two {
+        left: 438px;
+    }
+
+    .sec-three {
+        height: 1400px;
+    }
+
+    .sec-three h2 {
+        left: 30%;
+    }
+
+    .content {
+        left: 17%;
+        width: 500px;
+    }
+
+    .tarjets{
+        flex-wrap: wrap;
+        margin-top: 120px;
+    }
+}
+
+@media  screen and (max-width: 480px) {
+    header{
+        height: 68px;
+    }
+        
+    .menu{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    
+    .menu p {
+        margin: 0 5px;
+        font-size: 12px;
+    }   
+
+    .title {
+        left: 10px;
+        width: 230px;
+        font-size: 13px;
+    }
+
+    .title h1{
+        font-size: 50px;
+    }
+
+    .buttons {
+        left: 18px;
+        width: 175px;
+        height: 90px;
+        flex-wrap: wrap;
+    }
+
+    .btn-Features {
+        width: 150px;
+    }
+
+    .phone {
+        padding: 125px 17px;
+    }
+
+    .sec-three {
+        height: 2000px;
+    }
+
+    .sec-three h2 {
+        left: 15%;
+    }
+
+    .content {
+        left: 5%;
+        width: 420px;
+    }
+
+    .laptop{
+        width: 200px;
+        height: 150px;
+        position: relative;
+        top: 100px;
+        left: 15px;
+    }
+
+    .sec-two-div-two {
+        width: 200px;
+        top: -70px;
+        left: 276px;
+        font-size: 12px;
+    }
+
+    .sec-two-div-two h2 {
+        font-size: 20px;
+    }
+    
+}
+
